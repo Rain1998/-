@@ -149,11 +149,320 @@
 }
 
 .nav div{
-	width: 1.98rem;
-	height: 1.98rem;
+	width: 20%;
+	height: 50%;
 }
 
 .nav div img{
+	width: 100%;
+	height: 100%;
+}
+
+.goods{
+	width: 100%;
+	height: 7.64rem;
+	margin: 0.18rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.goods div{
+	width: 49.5%;
+	height: 100%;
+}
+
+.goods .left img{
+	width: 100%;
+	height: 100%;
+}
+
+.goods .right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.goods .right>div{
+	width: 100%;
+	height: 49.5%;
+}
+
+.goods>.right>div>a>img{
+	width: 100%;
+	height: 100%;
+}
+
+.ads{
+	width: 100%;
+	height: 4.24rem;
+	margin: 0.22rem 0;
+}
+
+.ads img{
+	width: 100%;
+	height: 100%;
+}
+
+.recommend{
+	width: 100%;
+}
+
+.recommend:first-child{
+	width: 100%;
+	height: 6.64rem;
+	margin-bottom: 0.07rem;
+}
+
+.recommend .top a img{
+	width: 100%;
+	height: 100%;
+}
+
+.recommend .bottom{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.recommend .bottom div{
+	width: 49.5%;
+	
+}
+
+
+
+.recommend .bottom .left div{
+	width: 100%;
+	height: 7.64rem;
+}
+
+.recommend .bottom .right div{
+	width: 100%;
+	height: 7.64rem;
+}
+
+.recommend .bottom .right div a>.img{
+	width: 100%;
+	height: 5.42rem;
+}
+
+.recommend .bottom .left div a>.img{
+	width: 100%;
+	height: 5.42rem;
+}
+
+.recommend .bottom .right div a .img>img{
+	width: 100%;
+	height: 100%;
+}
+
+.recommend .bottom .left div a .img>img{
+	width: 100%;
+	height: 100%;
+}
+
+.recommend .bottom .left div a .text{
+	width: 100%;
+	height: 2.22rem;
+	padding: 0.36rem 0.46rem 0 0.46rem;
+	box-sizing: border-box;
+}
+
+.recommend .bottom .left div a .text .name{
+	font-size: 0.42rem;
+	color: #1d1d1d;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.recommend .bottom .left div a .text .price{
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+}
+
+.recommend .bottom .left div a .text .jieshao{
+	font-size: 0.34rem;
+	text-align: left;
+	color: #8a8a8a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.recommend .bottom .left div a .text .price .itm1,.itm3{
+	font-size: 0.18rem;
+	color: #fd665d;
+	display: block;
+}
+
+.recommend .bottom .left div a .text .price .itm2{
+	font-size: 0.34rem;
+	color: #fd665d;
+	display: block;
+}
+
+.recommend .bottom .right div a .text{
+	width: 100%;
+	height: 2.22rem;
+	padding: 0.36rem 0.46rem 0 0.46rem;
+	box-sizing: border-box;
+}
+
+.recommend .bottom .right div a .text .name{
+	font-size: 0.42rem;
+	color: #1d1d1d;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.recommend .bottom .right div a .text .price{
+	height: 0.4rem;
+	display: flex;
+	align-items: center;
+}
+
+.recommend .bottom .right div a .text .jieshao{
+	font-size: 0.34rem;
+	text-align: left;
+	color: #8a8a8a;
+}
+
+.recommend .bottom .right div a .text .price .itm1,.itm3{
+	font-size: 0.18rem;
+	color: #fd665d;
+	display: block;
+}
+
+.recommend .bottom .right div a .text .price .itm2{
+	font-size: 0.34rem;
+	color: #fd665d;
+	display: block;
+}
+
+.ti{
+	width: 100%;
+	height: 1.5rem;
+	border-top: 2px solid rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	font-size: 0.38rem;
+	color: #5f5f5f;
+	text-align: center;
+	line-height: 1.5rem;
+}
+
+.ti span{
+	font-size: 0.18rem;
+}
+
+
+.intel{
+	width: 100%;
+}
+
+.intel .one{
+	width: 100%;
+	height: 6.64rem;
+	margin-bottom: 2px;
+}
+
+.intel .one img{
+	width: 100%;
+	height: 100%;
+}
+
+.intel .two{
+	width: 100%;
+	height:5.4rem ;
+	display: flex;
+}
+
+.a,.b{
+	width: 50%;
+	height: 100%;
+}
+.intel>.two>.a>a>img{
+	width: 100%;
+	height: 100%;
+}
+
+.b{
+	padding: 0.9rem 0.2rem 0 0.4rem;
+	box-sizing: border-box;
+}
+
+.b .name{
+	font-size: 0.42rem;
+	color: #1d1d1d;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.b .jieshao{
+	font-size: 0.34rem;
+	text-align: left;
+	color: #8a8a8a;
+	padding-top: 0.4rem;
+}
+
+.b .before{
+	font-size: 0.18rem;
+	color: #fd665d;
+}
+
+.b .num{
+	font-size: 0.68rem;
+	color: #fd665d;
+}
+
+.matt{
+	flex-direction: row-reverse;
+}
+
+.after{
+	width: 100%;
+	height:23.10rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.after-left{
+	width: 49.5%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.after-left div{
+	width: 100%;
+	height: 7.64rem;
+}
+
+.after-left div a>img{
+	width: 100%;
+	height: 100%;
+}
+
+.after-right{
+	width: 49.5%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.after-right div{
+	width: 100%;
+	height: 7.64rem;
+}
+
+.after-right div a>img{
 	width: 100%;
 	height: 100%;
 }
