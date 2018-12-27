@@ -32,8 +32,9 @@
 
 .header>.name{
 	height: 0.34rem;
-	font-size: 0.24rem;
+	font-size: 0.34rem;
 	color: #FFFFFF;
+	padding-left: 0.1rem;
 }
 
 .bottom{
@@ -46,6 +47,8 @@
 	height: 1.2rem;
 	display: flex;
 	justify-content: space-between;
+	padding-top:2.4rem ;
+	align-items: center;
 }
 
 .my-list{
@@ -67,3 +70,10 @@
 .all-list a{
 	font-size:0.44rem ;
 }
+
+.bottom-list{
+	width: 100%;
+	height: 2.56rem;
+	border: 1px solid #919191;
+}
+
