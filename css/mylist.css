@@ -1,0 +1,172 @@
+.root{
+	max-width: 640px;
+	margin: 0 auto;
+	height: 100vh;
+}
+
+.header{
+	width: 100%;
+	height: 1.38rem;
+	z-index: 999;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	background: #BEBEBE;
+}
+
+.header a{
+	font-size: 0.58rem;
+	color: #919191;
+}
+
+.header span{
+	font-size: 0.4rem;
+}
+
+.daohang{
+	width: 100%;
+	height: 0.98rem;
+	padding: 1.5rem 1.2rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.daohang span{
+	width:33.33%;
+	height:100%;
+	font-size: 0.4rem;
+	color: #383838;
+	text-align: center;
+	line-height: 1.5rem;
+	box-sizing: border-box;
+	transition: all 0.3s;
+}
+
+.daohang span:hover{
+	color: #e77012;
+	/* border-bottom: 2px solid #e77012; */
+}
+
+.line{
+	width: 100%;
+	height: 0.24rem;
+	background: #ececec;
+}
+
+.daohang-list{
+	width: 100%;
+	height: 1.76rem;
+	padding: 0 0.46rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.daohang-list .time{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0.4rem 0;
+	box-sizing: border-box;
+}
+
+.riqi{
+	font-size: 0.5rem;
+	color: #545454;
+}
+
+.bianhao{
+	font-size: 0.4rem;
+	color: #9c9c9c;
+}
+
+.daohang-list-text{
+	height: 100%;
+	font-size:0.52rem ;
+	color: #ff5a20;
+	line-height:1.76rem ;
+}
+
+.goods{
+	width: 100%;
+	height: 2.12rem;
+	padding: 0 0.46rem;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.goods-photo{
+	width: 1.86rem;
+	height: 1.86rem;
+}
+
+.goods-photo>img{
+	width: 100%;
+	height: 100%;
+}
+
+.goods-text{
+	font-size: 0.4rem;
+	color: #5c5c5c;
+	padding-left: 0.2rem;
+}
+
+.price{
+	width: 100%;
+	height: 1.14rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.price span{
+	font-size: 0.38rem;
+	color: #3C3C3C;
+	padding-right: 0.1rem;
+	font-weight: bold;
+}
+
+.price i{
+	font-size: 0.4rem;
+	color: #3c3c3c;
+	font-weight: bold;
+}
+
+.anniu{
+	width: 100%;
+	height: 0.96rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.anniu a{
+	width: 2.30rem;
+	height:0.96rem ;
+	border-radius: 5%;
+	font-size: 0.42rem;
+	text-align: center;
+	line-height: 0.96rem;
+	
+}
+
+.quxiao{
+	border: 1px solid #9b9b9b;
+	color: #9b9b9b;
+	margin: 0 0.3rem;
+}
+
+.fukuan{
+	border: 1px solid #ff5a20;
+	color: #ff5a20;
+}

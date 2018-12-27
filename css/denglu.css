@@ -1,0 +1,142 @@
+.top-icon{
+	width: calc(100% - 0.85 * 2rem);
+	height: 2.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    padding:0.5rem 0;
+	margin: 0 auto;
+}
+
+.icon{
+	width: 1rem;
+	height: 1rem;
+	background-color: #ff6700;
+	border-radius: 10%;
+	display: flex;
+}
+
+.icon>img{
+	width: 100%;
+	height: auto;
+}
+
+.top-icon p{
+	font-size: 0.6rem;
+	color: #1f0000;
+	padding-top: 0.4rem;
+}
+
+.kind{
+	width:calc(100% - 0.85 * 2rem);
+	height: 1.5rem;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.kind span{
+	font-size: 0.5rem;
+	color: #9b9b9b;
+	margin-right: 0.2rem;
+}
+
+input{
+	width: 7.5rem;
+	height: 100%;
+	outline:line;
+	border: none;
+	z-index: 99999;
+}
+
+#get-num{
+	font-size: 0.38rem;
+	color: #2ea5e5;
+}
+
+.on-box{
+	width:calc(100% - 0.85 * 2rem);
+	height: 1.4rem;
+	margin: 0.5rem auto;
+	background: #ff6700;
+	border-radius: 2%;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1.4rem;
+	color: #fff;
+}
+
+.down-box{
+	width:calc(100% - 0.85 * 2rem);
+	height: 1.4rem;
+	margin: 0.5rem auto;
+	border-radius: 2%;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1.4rem;
+	color: #000;
+	border: 1px solid rgba(0,0,0,0.3);
+	box-sizing: border-box;
+}
+
+.other{
+	width: calc(100% - 0.85 * 2rem);
+	height: 1.7rem;
+	margin: 0.5rem auto 0.2rem auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.other-text{
+	width: 1.7rem;
+	font-size: 0.3rem;
+	color: #cbcbbe;
+}
+
+.other-line{
+	width: 6rem;
+	height: 1px;
+	background: rgba(0,0,0,0.4);
+}
+
+.way{
+	height: 1rem;
+	width:calc(100% - 0.85 * 2rem) ;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.way div{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin: 0 0.2rem;
+}
+
+.way div>img{
+	width: 100%;
+	height: auto;
+}
+
+.lang-list{
+	width:calc(100% - 0.85 * 2rem) ;
+	height: 0.6rem;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 0.7rem;
+}
+
+.lang-list>a{
+	font-size: 0.36rem;
+	color: #5F5F5F;
+	padding: 0 0.26rem;
+}
+
+.sline{
+	font-size: 0.4rem;
+}
