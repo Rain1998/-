@@ -57,6 +57,10 @@
 	padding-left: 0.46rem;
 }
 
+.my-list a,.all-list a{
+	color: #000000;
+}
+
 .all-list{
 	height: 0.44rem;
 	display: flex;
