@@ -55,11 +55,12 @@
 	height: 0.42rem;
 	font-size: 0.42rem;
 	padding-left: 0.46rem;
-}
-
-.my-list a,.all-list a{
 	color: #000000;
 }
+
+.my-list a ,.all-list a{
+	text-decoration: none;
+	}
 
 .all-list{
 	height: 0.44rem;
@@ -73,6 +74,7 @@
 
 .all-list a{
 	font-size:0.44rem ;
+	color: #282828;
 }
 
 .bottom-list{
